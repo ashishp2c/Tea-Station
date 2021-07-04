@@ -211,6 +211,7 @@ Header Navbar Styles
 .nav-link {
   display: block;
   padding: 1rem 2rem;
+  text-transform: capitalize;
   font-size: 1.2rem;
   color: var(--clr-primary5);
   transition: var(--transition);
@@ -243,12 +244,13 @@ Header Navbar Styles
     align-self: center;
   }
   .nav-link {
+    padding: 1rem 0.7rem;
     color: var(--clr-grey9);
     display: inline-block;
     margin: 0;
   }
   .nav-link:hover {
-    padding-left: 2rem;
+    padding-left: 0.7rem;
     background-color: white;
     color: var(--clr-primary5);
   }
