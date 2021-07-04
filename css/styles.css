@@ -330,7 +330,7 @@ content divider Styles
 
 /* 
 ============================== 
-content divider Styles
+skills Styles
 ============================== 
 */
 .skills {
@@ -339,14 +339,14 @@ content divider Styles
   background: var(--clr-grey-10);
 }
 .skill {
-  padding: 3rem 1rem;
+  padding: 3rem 0;
   border-bottom: 2px solid var(--clr-offwhite);
   transition: var(--transition);
 }
 .skill-icon {
   color: var(--clr-primary5);
   font-size: 2.5rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   transition: var(--transition);
 }
 .skill-heading {
