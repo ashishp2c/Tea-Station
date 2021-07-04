@@ -49,7 +49,7 @@ Global Styles
 body {
   font-family: var(--ff-primary);
   color: var(--clr-grey7);
-  background: var(--clr-offwhite);
+  background: var(--clr-grey-10);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -338,7 +338,7 @@ skills Styles
 .skills {
   width: 100%;
   text-align: center;
-  background: var(--clr-grey-10);
+  background: var(--clr-offwhite);
 }
 .skill {
   padding: 3rem 0;
@@ -527,6 +527,97 @@ products Styles
   }
 }
 
+/* 
+============================== 
+Services Styles
+============================== 
+*/
+
+.services {
+  padding: 2rem 0;
+  background: var(--clr-grey-10);
+}
+.services-heading {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+.services-center {
+  width: 90%;
+}
+.services-card {
+  background: var(--clr-white);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin: 0 0 2rem;
+  box-shadow: 1px 1px 3px var(--clr-grey1);
+  transition: var(--transition);
+}
+.services-card:hover {
+  box-shadow: 1px 1px 5px var(--clr-grey3);
+  transform: scale(1.02);
+}
+.services-card-img-container {
+  position: relative;
+}
+.services-card-img-container img {
+  height: 17rem;
+  object-fit: cover;
+}
+.services-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  background: var(--clr-primary7);
+  padding: 0.4rem 0.9rem;
+  color: var(--clr-primary1);
+  border: 0.5rem solid var(--clr-white);
+  border-radius: 50%;
+  font-size: 2rem;
+}
+.services-card-info {
+  padding: 2rem 0.5rem;
+  text-align: center;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+.services-card-info h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.services-card-info p {
+  margin-bottom: 1rem;
+}
+.services-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  font-size: 0.75rem;
+}
+.services-cards-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .services-cards-container {
+    max-width: 816px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services-cards-container {
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
 /* 
 ============================== 
 footer Styles
