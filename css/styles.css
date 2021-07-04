@@ -389,7 +389,6 @@ about Styles
   margin: 2rem auto;
 }
 .img-container {
-  max-width: 30rem;
   overflow: hidden;
   background: var(--clr-primary3);
   border: 0.5rem solid var(--clr-primary5);
@@ -403,10 +402,12 @@ about Styles
   opacity: 0.5;
   transform: scale(1.2);
 }
-
+.about-content {
+  text-align: left;
+}
 .about-content p {
-  padding: 0 0 1rem;
-  max-width: 25rem;
+  max-width: 20rem;
+  padding-bottom: 1rem;
 }
 .about-btn {
   padding: 0.25rem 0.75rem;
@@ -415,6 +416,7 @@ about Styles
   .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
     justify-content: space-between;
   }
   .about-content {
