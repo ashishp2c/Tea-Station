@@ -277,23 +277,24 @@ hero Styles
 }
 .hero-text {
   align-self: center;
-  padding: 3rem;
 }
 
 .hero-heading2 {
   margin-left: auto;
   margin-right: auto;
   font-size: 2.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
   font-family: var(--ff-secondary);
   color: var(--clr-primary5);
 }
+@media screen and (max-width: 768px) {
+  .hero-heading2 {
+    max-width: 20rem;
+  }
+}
+
 .hero-heading1 {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
   text-transform: uppercase;
   font-family: var(--ff-primary);
   color: var(--clr-white);
