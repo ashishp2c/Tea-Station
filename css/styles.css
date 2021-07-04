@@ -458,7 +458,7 @@ products Styles
   color: var(--clr-primary5);
 }
 .product-img-container {
-  max-height: 20rem;
+  max-height: 25rem;
   overflow: hidden;
   border-radius: 1rem;
 }
@@ -487,6 +487,7 @@ products Styles
     grid-area: d;
   }
   .single-product {
+    width: 100%;
     margin: 1rem auto;
   }
   .products-section {
