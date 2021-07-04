@@ -438,12 +438,13 @@ products Styles
 .products-section {
   padding: 2rem 0;
   width: 90%;
-  margin: 2rem auto;
+  margin: 0 auto;
 }
 .product-content {
   margin-bottom: 2rem;
 }
 .product-content p {
+  text-align: justify;
   max-width: 30rem;
   padding-bottom: 1rem;
 }
@@ -518,4 +519,50 @@ products Styles
   .product-3 {
     grid-area: d;
   }
+  .single-product {
+    width: 100%;
+    margin: 0 auto 0;
+  }
+}
+
+/* 
+============================== 
+footer Styles
+============================== 
+*/
+.footer {
+  height: 28vh;
+  background: #222;
+  color: var(--clr-white);
+}
+.footer-center {
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.footer-content {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.footer-icons a {
+  padding: 0 0.5rem;
+  font-size: 1.75rem;
+  color: var(--clr-white);
+  transition: var(--transition);
+}
+.footer-icons a:hover {
+  color: var(--clr-primary5);
+}
+.footer-copy {
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+}
+.footer-copy span {
+  color: var(--clr-primary5);
 }
