@@ -384,7 +384,7 @@ about Styles
 ============================== 
 */
 .about-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
   width: 90%;
   margin: 2rem auto;
 }
@@ -414,10 +414,10 @@ about Styles
 }
 @media screen and (min-width: 992px) {
   .about-section {
+    padding: 3rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-    justify-content: space-between;
   }
   .about-content {
     padding-left: 2rem;
