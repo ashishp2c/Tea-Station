@@ -618,6 +618,79 @@ Services Styles
     grid-template-rows: 1fr;
   }
 }
+
+/* 
+============================== 
+contact Styles
+============================== 
+*/
+.contact-section {
+  background: var(--clr-white);
+  padding: 4rem 0;
+}
+.contact-grid-container {
+  width: 90%;
+}
+.contact-address p {
+  padding: 0.5rem 0;
+}
+.contact-value {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--clr-grey7);
+}
+.contact-subheading {
+  text-transform: capitalize;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: var(--clr-primary3);
+}
+.contact-form {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 35rem;
+  background: var(--clr-grey-10);
+  text-align: center;
+  padding-top: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px var(--clr-grey3);
+}
+.form-container h2 {
+  color: var(--clr-grey5);
+}
+.form-container input,
+.form-container textarea {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  letter-spacing: var(--spacing);
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: transparent;
+  width: 85%;
+}
+.form-container textarea {
+  height: 9rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.btn-contactus {
+  padding: 1rem 0;
+  width: 100%;
+}
+@media screen and (min-width: 992px) {
+  .contact-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-form {
+    margin-top: 0;
+  }
+  .contact-address {
+    margin-left: 2rem;
+  }
+}
 /* 
 ============================== 
 footer Styles
